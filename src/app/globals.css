@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #fff;
+  background-color: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+
+
+  input{
+    color: #151515;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+
+  .th-cell-style{
+   @apply border border-slate-400 bg-slate-100 p-2 rounded-md
+  }
+ 
